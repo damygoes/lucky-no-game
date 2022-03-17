@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./scss/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="container">
+      <section class="top-screen">
+        <div class="level-target"></div>
+        <div class="grid-display">
+          <button class="box-1"></button>
+          <p class="versus">vs</p>
+          <button class="box-2"></button>
+        </div>
+      </section>
+      <section class="content">
+        <div class="game-stats">
+          <h2 class="game-title">My Lucky Number</h2>
+          <div class="score-keeper">
+            <span class="player-one-score">0</span>-<span
+              class="player-two-score"
+              >0</span
+            >
+          </div>
+          <div class="count-selector-wrapper">
+            <p class="game-guide">Choose Level</p>
+            <select id="play-time-select" name="play-time-select">
+              <option value="choose"></option>
+              <option value="easy">Easy</option>
+              <option value="medium">Medium</option>
+              <option value="hard">Hard</option>
+            </select>
+          </div>
+          <div class="player-btn-container">
+            <div class="winner-card"></div>
+            <button class="reset-btn btn">Reset</button>
+          </div>
+        </div>
+      </section>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
